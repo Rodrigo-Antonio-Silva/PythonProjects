@@ -11,6 +11,7 @@ data = pd.read_csv('bandas2.csv')
 
 driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
 driver.maximize_window()
+
 driver.get('http://127.0.0.1:8000/admin/listings/band/add/  ')
 
 
