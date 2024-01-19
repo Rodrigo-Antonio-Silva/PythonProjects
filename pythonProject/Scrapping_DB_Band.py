@@ -111,3 +111,4 @@ for i, cantor in enumerate(data['artist']):
 
 print(data.head())
 data.to_csv('bandas2.csv', index=False)
+
